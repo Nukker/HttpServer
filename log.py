@@ -1,5 +1,5 @@
-# -*- coding: cp936 -*-
-# Time:2012Äê12ÔÂ12ÈÕ 17:11:45
+# -*- coding: utf-8 -*-
+# Time:2012ï¿½ï¿½12ï¿½ï¿½12ï¿½ï¿½ 17:11:45
 __author__ = 'Kun'
 
 import os,datetime,sys
@@ -14,7 +14,7 @@ def get_log_filename():
     return datetime.datetime.now().strftime('server.%Y-%m-%d-%H-%M-%S.log')
 
 class log():
-    ######ÈÕÖ¾Éú³É######
+    ######ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½######
     def __init__(self):
         self.log_file_path = config.logpath
         self.log_file = config.logpath + os.sep + get_log_filename()
